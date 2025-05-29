@@ -1,8 +1,9 @@
 <template>
   <UApp>
     <NuxtRouteAnnouncer />
-    <div>
-      <NuxtPage /> 
+    <div class="h-screen">
+      <app-top-bar />
+      <NuxtPage />
     </div>
   </UApp>
 </template>
