@@ -1,6 +1,14 @@
 <template>
-    <UButton class="rounded-full px-6" size="lg">
+    <UButton class="rounded-lg px-4" :size="size ?? 'lg'">
         <UIcon name="solar:phone-outline" />
-        Get in touch
+        Contact Us
     </UButton>
 </template>
+
+<script setup lang="ts">
+interface Props {
+    size: 'sm' | 'md' | 'lg' | 'xl',
+}
+
+const props = defineProps<Props>()
+</script>
