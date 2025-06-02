@@ -1,8 +1,9 @@
 <template>
-    <div class="pt-[90px] ring-1">
+    <div>
         <home-hero />
         <app-mini-contact-section />
         <home-services />
-        <app-CTA-sections/>
+        <home-process />
+        <app-CTA-sections />
     </div>
 </template>
