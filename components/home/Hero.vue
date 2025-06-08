@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col items-start justify-center h-[80dvh] relative">
         <UContainer as="section" class="relative">
-            <img class="absolute top-[-4em] left-[-8em] z-[-1] opacity-40 border-4 border-white/30 shadow-xl" width="300" height="300" src="/doodle.svg" alt="doodle1">
+            <img class="absolute top-[-4em] left-[-4em] z-[-1]" width="150" height="150" src="/cross.svg" alt="doodle1">
             <div
                 class="ring-1 ring-primary-600/25 font-bold py-1 px-4 bg-primary-50 text-primary w-50 rounded-full">
                 <small>Human Centric Experience</small>
