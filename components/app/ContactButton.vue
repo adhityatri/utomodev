@@ -1,5 +1,5 @@
 <template>
-    <UButton class="px-4 rounded-full" :size="size ?? 'lg'">
+    <UButton class="px-4 rounded-full" :size="size ?? 'lg'" color="primary">
         <template #leading>
             <UIcon name="solar:phone-outline" />
         </template>
