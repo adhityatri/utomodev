@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme static {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-primary: #0b1d51;
+  --color-primary-50: #ecf7ff;
+  --color-primary-100: #d5eaff;
+  --color-primary-200: #b4dcff;
+  --color-primary-300: #81c7ff;
+  --color-primary-400: #46a7ff;
+  --color-primary-500: #1c80ff;
+  --color-primary-600: #045eff;
+  --color-primary-700: #0046f7;
+  --color-primary-800: #0638c7;
+  --color-primary-900: #0c359c;
+  --color-primary-950: #0b1d51;
+}

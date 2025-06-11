@@ -1,7 +1,9 @@
 <template>
-    <UButton class="rounded-lg px-4" :size="size ?? 'lg'">
-        <UIcon name="solar:phone-outline" />
-        Contact Us
+    <UButton class="px-4 rounded-full" :size="size ?? 'lg'" color="primary">
+        <template #leading>
+            <UIcon name="solar:phone-outline" />
+        </template>
+        Consult Now
     </UButton>
 </template>
 

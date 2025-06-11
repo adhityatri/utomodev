@@ -1,5 +1,5 @@
 <template>
-    <div class="ring-1 py-4 bg-primary-600 text-white">
+    <div class="ring-1 py-4 bg-primary text-white">
         <UContainer as="section" class="flex justify-between items-center">
             <ul class="flex gap-4">
                 <li v-for="(social, index) in PROFILE.contact" :key="index" class="flex items-center gap-2">
