@@ -9,27 +9,25 @@ const items = ref<NavigationMenuItem[]>([
   {
     label: 'Home',
     icon: 'solar:home-2-outline',
-    to: '/getting-started',
+    to: '/',
+    exact: true,
+    exactHash: true
   },
   {
     label: 'Services',
     icon: 'solar:slider-vertical-outline',
-    to: '/getting-started',
-  },
-  {
-    label: 'Pricing',
-    icon: 'solar:tag-price-outline',
-    to: '/getting-started',
+    exactHash: true,
+    to: '/#services',
   },
   {
     label: 'Blog',
     icon: 'solar:notebook-square-outline',
-    to: '/getting-started',
+    to: '/blog',
   },
   {
     label: 'About Us',
     icon: 'solar:user-hand-up-outline',
-    to: '/getting-started',
+    to: '/about-us',
   }
 ])
 </script>

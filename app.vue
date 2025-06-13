@@ -1,9 +1,11 @@
 <template>
-  <UApp>
+  <UApp class="flex flex-col">
     <NuxtRouteAnnouncer />
-    <div class="h-screen">
+    <div class="flex flex-col flex-1">
       <app-top-bar />
-      <NuxtPage />
+      <div class="flex flex-col flex-1">
+        <NuxtPage />
+      </div>
       <app-footer />
     </div>
   </UApp>

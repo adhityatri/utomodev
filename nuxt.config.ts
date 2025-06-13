@@ -2,9 +2,19 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@vueuse/nuxt'
+  ],
   css: ['~/assets/css/main.css'],
   ui: {
     colorMode: false,
-  }
+  },
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth',
+    },
+  },
 })

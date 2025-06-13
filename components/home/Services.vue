@@ -1,8 +1,9 @@
 <template>
-    <div class="bg-primary relative overflow-hidden">
-        <img src="/cross-white.svg" width="200" class="absolute z-0 right-[15em] top-[40%] translate-y-[-50%]" alt="cross-white" />
+    <div id="services" ref="services" class="bg-primary relative overflow-hidden">
+        <img src="/cross-white.svg" width="200" class="absolute z-0 right-[15em] top-[40%] translate-y-[-50%]"
+            alt="cross-white" />
         <UContainer as="section" class="py-[6em] z-1 relative">
-            <text-heading class="text-white">Explore what <br/> we offer</text-heading>
+            <text-heading class="text-white">Explore what <br /> we offer</text-heading>
             <div class="inline-flex gap-6 overflow-auto w-[100%] p-2">
                 <UCard v-for="(service, index) in SERVICES" :key="index">
                     <UIcon :name="service.icon" class="text-[2rem]" />
@@ -15,5 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import {SERVICES} from '~/constants/services'
-</script> 
+import { SERVICES } from '~/constants/services'
+
+const services = ref<HTMLElement | null>(null)
+</script>

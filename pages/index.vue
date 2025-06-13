@@ -4,6 +4,6 @@
         <app-mini-contact-section />
         <home-services />
         <home-process />
-        <app-CTA-sections />
+        <app-c-t-a-sections />
     </div>
 </template>

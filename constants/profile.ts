@@ -3,6 +3,8 @@ export const PROFILE = {
   role: "Software House | Problem Solver",
   tagline: "Empowering Businesses Through Digital Excellence.",
   subTagline: "Your trusted partner in digital transformation.",
+  address: 'Jl. Mangunsarkoro 62, Gang Swadaya 3',
+  city: 'Rambipuji, Jember',
   social: [
     {
       name: "instagram",
