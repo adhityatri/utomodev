@@ -1,6 +1,6 @@
 <template>
   <div class="sticky top-0 z-10 bg-white" :class="{ 'shadow-lg': isScrolled }">
-    <UContainer as="nav" class="flex items-center justify-between gap-4 py-2">
+    <UContainer as="header" class="flex items-center justify-between gap-4 py-2">
       <app-brand />
       <app-menu class="flex-1" />
       <app-contact-button size="lg" />

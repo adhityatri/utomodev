@@ -11,7 +11,7 @@ const items = ref<NavigationMenuItem[]>([
     icon: 'solar:home-2-outline',
     to: '/',
     exact: true,
-    exactHash: true
+    exactHash: true,
   },
   {
     label: 'Services',
@@ -19,11 +19,11 @@ const items = ref<NavigationMenuItem[]>([
     exactHash: true,
     to: '/#services',
   },
-  {
-    label: 'Blog',
-    icon: 'solar:notebook-square-outline',
-    to: '/blog',
-  },
+  // {
+  //   label: 'Blog',
+  //   icon: 'solar:notebook-square-outline',
+  //   to: '/blog',
+  // },
   {
     label: 'About Us',
     icon: 'solar:user-hand-up-outline',

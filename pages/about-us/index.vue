@@ -41,5 +41,69 @@
 </template>
 
 <script setup lang="ts">
-
+useHead({
+    title: 'About Us - Utomosolutions',
+    meta: [
+        {
+            name: 'description',
+            content: 'Learn more about UtomoSolutions and our mission to empower businesses through digitalization. We help businesses unlock their digital potential.'
+        },
+        {
+            name: 'keywords',
+            content: 'UtomoSolutions, about us, digital potential, digitalization, business empowerment, technology solutions, web development, mobile development'
+        },
+        // Open Graph / Facebook
+        {
+            property: 'og:type',
+            content: 'website'
+        },
+        {
+            property: 'og:url',
+            content: 'https://utomosolutions.com/about-us'
+        },
+        {
+            property: 'og:title',
+            content: 'About Us - Utomosolutions'
+        },
+        {
+            property: 'og:description',
+            content: 'Learn more about UtomoSolutions and our mission to empower businesses through digitalization. We help businesses unlock their digital potential.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://utomosolutions.com/about-image.avif' // Pastikan gambar ini ada di folder public dan pathnya benar
+        },
+        // Twitter
+        {
+            property: 'twitter:card',
+            content: 'summary_large_image'
+        },
+        {
+            property: 'twitter:url',
+            content: 'https://utomosolutions.com/about-us'
+        },
+        {
+            property: 'twitter:title',
+            content: 'About Us - Utomosolutions'
+        },
+        {
+            property: 'twitter:description',
+            content: 'Learn more about UtomoSolutions and our mission to empower businesses through digitalization. We help businesses unlock their digital potential.'
+        },
+        {
+            property: 'twitter:image',
+            content: 'https://utomosolutions.com/about-image.avif' // Pastikan gambar ini ada di folder public dan pathnya benar
+        },
+        {
+            name: 'robots',
+            content: 'index, follow'
+        }
+    ],
+    link: [
+        {
+            rel: 'canonical',
+            href: 'https://utomosolutions.com/about-us'
+        }
+    ],
+})
 </script>
