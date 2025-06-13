@@ -16,12 +16,12 @@
             <div class="flex flex-col gap-4">
                 <div class="flex-1/2">
                     <h1 class="font-bold mb-2">Office</h1>
-                    <p>Jl. Mangunsarkoro 62, Gang Swadaya 3</p>
-                    <p class="mb-2">Rambipuji, Jember</p>
-                    <p>Phone: +6285158022805</p>
-                    <p>Email: adhityatri.work@gmail.com</p>
+                    <p>{{ PROFILE.address }}</p>
+                    <p class="mb-2">{{ PROFILE.city }}</p>
+                    <p>Phone: {{ PROFILE.contact[0].value }}</p>
+                    <p>Email: {{ PROFILE.contact[1].value }}</p>
                 </div>
-                <div class="rounded-lg overflow-hidden">
+                <div class="rounded-lg overflow-hidden mt-4 ring-2 ring-white shadow-lg">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246.84346296014715!2d113.68284013847163!3d-8.152737585500942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1749789425497!5m2!1sid!2sid"
                         width="100%" height="300" style="border:0;" allowfullscreen="false" loading="lazy"
@@ -41,6 +41,7 @@
 </template>
 
 <script setup lang="ts">
+import {PROFILE} from '~/constants/profile'
 useHead({
     title: 'About Us - Utomosolutions',
     meta: [

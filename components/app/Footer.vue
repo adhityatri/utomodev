@@ -4,8 +4,8 @@
             <h1 class="font-bold mb-2">Office</h1>
             <p>{{ PROFILE.address }}</p>
             <p class="mb-2">{{ PROFILE.city }}</p>
-            <p>Phone: +6285158022805</p>
-            <p>Email: adhityatri.work@gmail.com</p>
+            <p>Phone: {{ PROFILE.contact[0].value }}</p>
+            <p>Email: {{ PROFILE.contact[1].value }}</p>
         </div>
         <app-brand />
     </UContainer>
