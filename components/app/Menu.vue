@@ -1,9 +1,23 @@
 <template>
-    <UNavigationMenu :items="items" class="w-full justify-center"/>
+  <USlideover v-if="isMobile" title="Menu" close-icon="i-lucide-arrow-right">
+    <UButton variant="ghost" color="primary" icon="i-heroicons-bars-3" aria-label="Open mobile menu" class="flex-none"
+      @click="onMobileClick()" />
+
+    <template #body>
+      <UNavigationMenu @select="onMobileClick()" orientation="vertical" :items="items" class="w-full justify-center" />
+    </template>
+  </USlideover>
 </template>
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+
+const { isMobile } = useDevice()
+
+const isMobileMenuOpen = ref(false);
+const onMobileClick = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value;
+}
 
 const items = ref<NavigationMenuItem[]>([
   {
@@ -17,7 +31,7 @@ const items = ref<NavigationMenuItem[]>([
     label: 'Services',
     icon: 'solar:slider-vertical-outline',
     exactHash: true,
-    to: '/#services',
+    to: '/#services'
   },
   // {
   //   label: 'Blog',
@@ -27,7 +41,8 @@ const items = ref<NavigationMenuItem[]>([
   {
     label: 'About Us',
     icon: 'solar:user-hand-up-outline',
-    to: '/about-us',
+    to: '/about-us'
   }
 ])
+
 </script>

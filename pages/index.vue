@@ -1,7 +1,7 @@
 <template>
     <main>
         <home-hero />
-        <app-mini-contact-section />
+        <app-mini-contact-section v-if="!isMobile" />
         <home-services id="services" />
         <home-process />
         <app-c-t-a-sections />
@@ -74,4 +74,6 @@ useHead({
         }
     ],
 })
+
+const { isMobile } = useDevice()
 </script>
