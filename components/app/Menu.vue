@@ -4,9 +4,12 @@
       @click="onMobileClick()" />
 
     <template #body>
-      <UNavigationMenu @select="onMobileClick()" orientation="vertical" :items="items" class="w-full justify-center" />
+      <UNavigationMenu orientation="vertical" :items="items" class="w-full justify-center" />
     </template>
   </USlideover>
+
+  <UNavigationMenu v-else :items="items" class="w-full justify-center" />
+
 </template>
 
 <script setup lang="ts">
