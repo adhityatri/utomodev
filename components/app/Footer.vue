@@ -1,5 +1,5 @@
 <template>
-    <UContainer as="footer" class="mt-8 py-6 flex justify-between" :class="{'flex-col-reverse' : isMobile }">
+    <UContainer as="footer" class="mt-8 py-6 flex justify-between items-start" :class="{'flex-col-reverse' : isMobile }">
         <div class="flex-1">
             <h1 class="font-bold mb-2">Office</h1>
             <p>{{ PROFILE.address }}</p>
