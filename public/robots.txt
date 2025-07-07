@@ -1,2 +1,16 @@
+# Mengizinkan semua perayap (crawler)
 User-Agent: *
+
+# Dengan membiarkan 'Disallow' kosong, Anda mengizinkan semua perayap mengakses semua konten.
+# Ini adalah pengaturan default yang baik jika Anda tidak yakin apa yang harus diblokir.
 Disallow:
+
+# Tambahkan path spesifik yang ingin Anda cegah agar tidak dirayapi oleh crawler.
+# Contohnya, panel admin, area pengguna pribadi, atau hasil pencarian internal.
+# Hapus komentar dan sesuaikan baris di bawah ini sesuai kebutuhan struktur situs Anda.
+# Disallow: /admin/
+# Disallow: /private/
+
+# Memberikan lokasi sitemap Anda untuk membantu perayap menemukan semua halaman Anda.
+# PENTING: Ganti 'https://www.utomosolutions.com' dengan domain produksi Anda yang sebenarnya.
+Sitemap: https://www.utomosolutions.com/sitemap.xml
