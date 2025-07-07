@@ -3,8 +3,8 @@ export const PROFILE = {
   role: "Software House | Problem Solver",
   tagline: "Empowering Businesses Through Digital Excellence.",
   subTagline: "Your trusted partner in digital transformation.",
-  address: 'Jl. Mangunsarkoro 62, Gang Swadaya 3',
-  city: 'Rambipuji, Jember',
+  address: 'Jl. Kasuari Blok KK3 No 31',
+  city: 'Patrang, Jember',
   social: [
     {
       name: "instagram",
@@ -22,12 +22,12 @@ export const PROFILE = {
   contact: [
     {
       name: "phone",
-      value: "+6285158022805",
+      value: "+6285128031998",
       icon: "solar:phone-outline",
     },
     {
       name: "email",
-      value: "adhityatri.work@gmail.com",
+      value: "info.utomosolutions@gmail.com",
       icon: "solar:mailbox-bold",
     },
   ],

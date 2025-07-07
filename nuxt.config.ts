@@ -18,4 +18,14 @@ export default defineNuxtConfig({
       scrollBehaviorType: 'smooth',
     },
   },
+  image: {
+    imageenging : {
+      baseUrl: 'https://85iby668.dev.cdn.imgeng.in',
+      modifier : {
+        format: 'avif',
+        quality: '50%',
+        fit: 'cover'
+      }
+    }
+  }
 })
