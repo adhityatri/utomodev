@@ -27,7 +27,7 @@ export const PROFILE = {
     },
     {
       name: "email",
-      value: "info.utomosolutions@gmail.com",
+      value: "hello@utomosolutions.com",
       icon: "solar:mailbox-bold",
     },
   ],

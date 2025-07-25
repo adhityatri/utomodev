@@ -19,7 +19,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const handleContact = () => {
-    const email = 'info.utomosolutions@gmail.com';
+    const email = 'hello@utomosolutions.com';
     const subject = 'Project Inquiry';
     const mailtoUrl = `mailto:${encodeURIComponent(
         email
