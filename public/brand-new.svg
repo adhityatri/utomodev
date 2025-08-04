@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="500"
+   viewBox="0 0 270.93333 132.29167"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   sodipodi:docname="utomosolutions.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,2.0797395,0,1 @ F,0,0,1,0,1.5546155,0,1 @ F,0,0,1,0,2.1232384,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.4122776,0,1 @ F,0,0,1,0,4.2436296,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,2.2635558,0,1 @ F,0,0,1,0,6.3966626,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="407.14286"
+     inkscape:cy="177.14286"
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:lockguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <sodipodi:guide
+       position="41.159507,188.48068"
+       orientation="0.70710678,-0.70710678"
+       id="guide11"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <text
+     xml:space="preserve"
+     style="font-weight:800;font-size:38.5726px;font-family:'Ubuntu Sans';-inkscape-font-specification:'Ubuntu Sans Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#7c4547;stroke-width:4;-inkscape-stroke:none"
+     x="27.666243"
+     y="198.20303"
+     id="text5-7"><tspan
+       sodipodi:role="line"
+       id="tspan5-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Pecita;-inkscape-font-specification:'Pecita Bold';stroke-width:4"
+       x="27.666243"
+       y="198.20303" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:73.9878px;font-family:Pecita;-inkscape-font-specification:'Pecita Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0b1d51;fill-opacity:1;fill-rule:nonzero;stroke-width:4;-inkscape-stroke:none"
+     x="27.429564"
+     y="71.142395"
+     id="text13"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="fill:#0b1d51;fill-opacity:1;fill-rule:nonzero;stroke-width:4"
+       x="27.429564"
+       y="71.142395">utomo</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.2792px;line-height:0;font-family:'Noto Serif Dogra';-inkscape-font-specification:'Noto Serif Dogra';text-align:start;letter-spacing:15.3458px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2b0000;fill-opacity:1;stroke-width:4;-inkscape-stroke:none"
+     x="134.08212"
+     y="98.24984"
+     id="text14"><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0;font-family:Coolvetica;-inkscape-font-specification:'Coolvetica Condensed';text-align:center;letter-spacing:15.3458px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;stroke-width:4"
+       x="141.75502"
+       y="98.24984">solutions</tspan></text>
+</svg>

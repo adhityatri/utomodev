@@ -1,9 +1,11 @@
 <template>
     <div>
         <UContainer as="div" class="py-8 text-start mb-10">
-            <div class="h-[400px] overflow-hidden mt-[2em] flex rounded-lg shadow-lg ring-2 ring-white">
-                <img class="object-cover w-full h-full" src="/about-image.avif" alt="about-image" />
-                <!-- <nuxt-img provider="imageengine" src="/about-image.avif" alt="about-image" /> -->
+            <div :class="{'h-full bg-black' : isMobile, 'h-[400px]' : !isMobile}" class="overflow-hidden mt-[2em] flex rounded-lg shadow-lg ring-2 ring-white">
+                <picture class="object-cover flex flex-1 items-center justify-center w-full h-full">
+                    <source srcset="/about-image.avif" type="image/avif">
+                    <img src="/about-image.avif" alt="about-image" />
+                </picture>
             </div>
             <p class="text-[1.5rem] mt-[4em] mb-[2em]">
                 <b>UtomoSolutions</b> was founded with a single mission to empower businesses through
@@ -108,4 +110,6 @@ useHead({
         }
     ],
 })
+
+const {isMobile} = useDevice();
 </script>

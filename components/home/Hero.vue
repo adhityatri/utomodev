@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-start justify-center h-[80dvh] relative">
+    <div :class="{'h-[50dvh]': isMobile, 'h-[80dvh]' : !isMobile}" class="flex flex-col items-start justify-center relative">
         <UContainer as="section" class="relative">
             <img v-if="!isMobile" class="absolute top-[-4em] left-[-4em] z-[-1]" width="150" height="150" src="/cross.svg" alt="doodle1">
             <div class="ring-1 ring-primary-600/25 font-bold py-1 px-4 bg-primary-50 text-primary w-50 rounded-full" :class="{'mb-4' : isMobile}">
@@ -22,7 +22,7 @@
                 </UButton>
             </div>
 
-            <img class="absolute right-0 top-[80%] translate-y-[-40%]" :class="{'top-[100%]!' :isMobile }" :width="isMobile ? '200' : '400'" src="/development.svg" alt="development">
+            <img v-if="!isMobile" class="absolute right-0 top-[80%] translate-y-[-40%]" :class="{'top-[100%]!' :isMobile }" :width="isMobile ? '200' : '400'" src="/development.svg" alt="development">
         </UContainer>
     </div>
 </template>
