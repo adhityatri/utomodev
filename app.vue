@@ -5,6 +5,7 @@
       <app-top-bar />
       <div class="flex flex-col flex-1">
         <NuxtPage />
+        <SpeedInsights />
       </div>
       <app-footer />
     </div>
@@ -12,5 +13,5 @@
 </template>
 
 <script setup lang="ts">
-const {isMobile} = useDevice()
+import { SpeedInsights } from '@vercel/speed-insights/nuxt';
 </script>
