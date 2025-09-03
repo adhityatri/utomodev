@@ -14,11 +14,11 @@ useHead({
     meta: [
         {
             name: 'description',
-            content: 'Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.'
+            content: 'Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.'
         },
         {
             name: 'keywords',
-            content: 'Utomosolutions, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services'
+            content: 'it konsultan, digital it, software house, jember, Utomosolutions, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services'
         },
         // Open Graph / Facebook
         {

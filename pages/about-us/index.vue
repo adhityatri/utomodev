@@ -54,7 +54,7 @@ useHead({
         },
         {
             name: 'keywords',
-            content: 'UtomoSolutions, about us, digital potential, digitalization, business empowerment, technology solutions, web development, mobile development'
+            content: 'it consultant, software house, jember, UtomoSolutions, about us, digital potential, digitalization, business empowerment, technology solutions, web development, mobile development'
         },
         // Open Graph / Facebook
         {
