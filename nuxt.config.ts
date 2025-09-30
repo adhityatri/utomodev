@@ -66,6 +66,7 @@ export default defineNuxtConfig({
     storesDirs: ["~/stores/**"],
   },
   image: {
+    provider: "imageengine",
     imageengine: {
       baseUrl: "https://rvo5wybe.cdn.imgeng.in",
       modifier: {
