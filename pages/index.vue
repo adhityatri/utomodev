@@ -1,79 +1,83 @@
 <template>
-    <main>
-        <home-hero />
-        <app-mini-contact-section v-if="!isMobile" />
-        <home-services id="services" />
-        <home-process />
-        <app-c-t-a-sections />
-    </main>
+  <main>
+    <home-hero />
+    <app-mini-contact-section v-if="!isMobile" />
+    <home-services id="services" />
+    <home-process />
+    <app-c-t-a-sections />
+  </main>
 </template>
 
 <script setup lang="ts">
-useHead({
-    title: 'Utomosolutions - Empowering Your Digital Potential',
+  useHead({
+    title: "Utomosolutions - Empowering Your Digital Potential",
     meta: [
-        {
-            name: 'description',
-            content: 'Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.'
-        },
-        {
-            name: 'keywords',
-            content: 'it konsultan, digital it, software house, jember, Utomosolutions, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services'
-        },
-        // Open Graph / Facebook
-        {
-            property: 'og:type',
-            content: 'website'
-        },
-        {
-            property: 'og:url',
-            content: 'https://utomosolutions.com/'
-        },
-        {
-            property: 'og:title',
-            content: 'Utomosolutions - Empowering Your Digital Potential'
-        },
-        {
-            property: 'og:description',
-            content: 'Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.'
-        },
-        {
-            property: 'og:image',
-            content: 'https://utomosolutions.com/og-image.png' // Ganti dengan path gambar Open Graph utama Anda
-        },
-        // Twitter
-        {
-            property: 'twitter:card',
-            content: 'summary_large_image'
-        },
-        {
-            property: 'twitter:url',
-            content: 'https://utomosolutions.com/'
-        },
-        {
-            property: 'twitter:title',
-            content: 'Utomosolutions - Empowering Your Digital Potential'
-        },
-        {
-            property: 'twitter:description',
-            content: 'Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.'
-        },
-        {
-            property: 'twitter:image',
-            content: 'https://utomosolutions.com/twitter-image.png' // Ganti dengan path gambar Twitter Card utama Anda
-        },
-        {
-            name: 'robots',
-            content: 'index, follow'
-        }
+      {
+        name: "description",
+        content:
+          "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
+      },
+      {
+        name: "keywords",
+        content:
+          "it konsultan, digital it, software house, jember, Utomosolutions, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services",
+      },
+      // Open Graph / Facebook
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        property: "og:url",
+        content: "https://utomosolutions.com/",
+      },
+      {
+        property: "og:title",
+        content: "Utomosolutions - Empowering Your Digital Potential",
+      },
+      {
+        property: "og:description",
+        content:
+          "Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.",
+      },
+      {
+        property: "og:image",
+        content: "https://utomosolutions.com/og-image.png", // Ganti dengan path gambar Open Graph utama Anda
+      },
+      // Twitter
+      {
+        property: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        property: "twitter:url",
+        content: "https://utomosolutions.com/",
+      },
+      {
+        property: "twitter:title",
+        content: "Utomosolutions - Empowering Your Digital Potential",
+      },
+      {
+        property: "twitter:description",
+        content:
+          "Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.",
+      },
+      {
+        property: "twitter:image",
+        content: "https://utomosolutions.com/twitter-image.png", // Ganti dengan path gambar Twitter Card utama Anda
+      },
+      {
+        name: "robots",
+        content: "index, follow",
+      },
     ],
     link: [
-        {
-            rel: 'canonical',
-            href: 'https://utomosolutions.com/'
-        }
+      {
+        rel: "canonical",
+        href: "https://utomosolutions.com/",
+      },
     ],
-})
+  });
 
-const { isMobile } = useDevice()
+  const { isMobile } = useDevice();
 </script>
