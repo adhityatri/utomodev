@@ -1,10 +1,5 @@
 <template>
-  <USlideover 
-    v-if="isMobile" 
-    v-model:open="open" 
-    title="Menu" 
-    close-icon="i-lucide-arrow-right"
-  >
+  <USlideover v-if="isMobile" v-model:open="open" close-icon="i-lucide-arrow-right" title="Menu">
     <UButton
       variant="ghost"
       color="primary"
@@ -40,9 +35,9 @@
   const { isMobile } = useDevice();
   const open = ref(false);
 
-  const menuItems = ref<NavigationMenuItem[]>([
+  const menuItems = computed(() => [
     {
-      label: "Home",
+      label: $t("menu.home"),
       icon: "solar:home-2-outline",
       to: "/",
       exact: true,
@@ -50,21 +45,21 @@
       onSelect: () => (open.value = false),
     },
     {
-      label: "Services",
+      label: $t("menu.services"),
       icon: "solar:slider-vertical-outline",
       to: "/#services",
       exactHash: true,
       onSelect: () => (open.value = false),
     },
     {
-      label: "Blog",
+      label: $t("menu.blog"),
       icon: "solar:notebook-square-outline",
       to: "/blog",
       exactHash: true,
       onSelect: () => (open.value = false),
     },
     {
-      label: "About Us",
+      label: $t("menu.about"),
       icon: "solar:user-hand-up-outline",
       to: "/about-us",
       onSelect: () => (open.value = false),

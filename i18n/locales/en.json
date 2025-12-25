@@ -1,0 +1,38 @@
+{
+  "slogan": "Empowering Businesses Through\nDigital Excellence.",
+  "sub-slogan": "Your trusted partner in digital transformation.",
+  "consult": "Consult Now",
+  "learn-more": "Learn More",
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "offer-title": "Explore what \n we offer",
+  "offer-sub-title": "Our finest services to empower your company’s bold vision.",
+  "offer": {
+    "webdev": "We create fast, responsive, and scalable websites—optimized for SEO, performance, and a clean professional look that makes your brand stand out.",
+    "mobile": "High-quality mobile applications for iOS and Android, built with performance, security, and seamless user experience at the core.",
+    "uiux": "We create intuitive, engaging, and user-centered designs that enhance usability, improve user satisfaction, and drive meaningful interactions.",
+    "ecommerce": "Secure and scalable e-commerce solutions built to boost sales, streamline operations, and deliver exceptional customer experiences."
+  },
+  "process": "Our Process",
+  "process-sub-title": "The Journey from Idea to Impact",
+  "process-step": {
+    "discover": "We start by understanding your vision, goals, and business needs. This helps us define a clear scope and set the right foundation for the project.",
+    "design": "Ideas turn into visuals. We create wireframes, mockups, and interactive prototypes to validate user flows and design before development begins.",
+    "development": "The core execution phase. We build scalable backend systems and polished frontend experiences based on approved designs and specifications.",
+    "testing": "Before launch, we run thorough testing—covering functionality, performance, and security—to ensure a reliable and high-quality product.",
+    "launch": "Your application goes live in a production-ready environment, fully configured and optimized for real users.",
+    "maintenance": "Post-launch support that matters. We handle monitoring, bug fixes, performance improvements, and ongoing enhancements as your product grows."
+  },
+  "cta": {
+    "title": "Ready To Move Forward With Us?",
+    "subtitle": "Let’s build something great together. Utomosolutions helps simplify your workflow \nso you can focus on what really matters."
+  },
+  "about": {
+    "description": "was founded with a single mission to empower businesses through digitalization. We're proud to have guided numerous organizations on their digital transformation journeys. \nToday, UtomoSolutions is dedicated to helping businesses unlock and process the significant income potential that exists within the digital community."
+  }
+}

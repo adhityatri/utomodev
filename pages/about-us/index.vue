@@ -13,11 +13,7 @@
         />
       </div>
       <p class="text-[1.5rem] mt-[4em] mb-[2em]">
-        <b>UtomoSolutions</b> was founded with a single mission to empower businesses through
-        digitalization. We're proud to have guided numerous organizations on their digital
-        transformation journeys. <br />Today, UtomoSolutions is dedicated to helping businesses
-        unlock and process the significant income potential that exists within the digital
-        community.
+        <b>UtomoSolutions</b> {{ $t("about.description") }}
       </p>
       <div class="flex flex-col gap-4">
         <div class="flex-1/2">
@@ -44,8 +40,7 @@
       <UContainer as="div" class="text-center h-[400px] flex flex-col items-center justify-center">
         <p class="text-[2rem] font-bold mb-4">Ready To Move Forward With Us?</p>
         <p class="text-[1.2rem] mb-8 w-[70%] place-self-center">
-          Let’s build something great together. Utomosolutions helps simplify your workflow so you
-          can focus on what really matters.
+          {{ $t("cta.subtitle") }}
         </p>
         <app-contact-button class="bg-primary-900" size="xl" />
       </UContainer>

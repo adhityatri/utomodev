@@ -1,0 +1,38 @@
+{
+  "slogan": "Perkuat Bisnis Melalui \nInovasi Digital.",
+  "sub-slogan": "Mitra terpercaya Anda dalam transformasi digital.",
+  "consult": "Konsultasi Gratis",
+  "learn-more": "Pelajari Selengkapnya",
+  "menu": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "contact": "Kontak",
+    "blog": "Blog"
+  },
+  "offer-title": "Layanan Kami",
+  "offer-sub-title": "Layanan terbaik kami untuk mendukung visi besar perusahaan Anda",
+  "offer": {
+    "webdev": "Kami bikin website yang cepat, responsif, dan siap berkembang. Dioptimalkan untuk SEO, performa tinggi, dan tampilan profesional agar bisnis Anda makin standout.",
+    "mobile": "Kembangkan aplikasi mobile berkualitas tinggi untuk iOS dan Android. Fokus pada performa, keamanan, dan pengalaman pengguna yang mulus untuk mendukung kebutuhan bisnis Anda.",
+    "uiux": "Kami merancang tampilan yang menarik, intuitif, dan user-friendly. Setiap desain dibuat untuk meningkatkan kenyamanan pengguna dan mendorong interaksi yang maksimal.",
+    "ecommerce": "Solusi e-commerce yang aman, scalable, dan siap berkembang. Dirancang untuk meningkatkan penjualan, efisiensi operasional, dan kepuasan pelanggan."
+  },
+  "process": "Proses Kami",
+  "process-sub-title": "Perjalanan dari Ide sampai Jadi Dampak Nyata",
+  "process-step": {
+    "discover": "Kami mulai dengan memahami visi, tujuan, dan kebutuhan bisnis Anda. Dari sini, kami menyusun scope yang jelas agar proyek berjalan tepat sasaran.",
+    "design": "Ide diubah menjadi visual. Kami membuat wireframe, mockup, dan prototype interaktif untuk memastikan alur dan tampilan sudah sesuai sebelum masuk ke tahap development.",
+    "development": "Tahap eksekusi inti. Tim kami membangun backend dan frontend sesuai desain, dengan fokus pada performa, skalabilitas, dan kualitas kode.",
+    "testing": "Sebelum rilis, kami melakukan testing menyeluruh—mulai dari fungsi, performa, hingga keamanan—untuk memastikan aplikasi berjalan stabil dan siap digunakan.",
+    "launch": "Aplikasi dirilis ke environment produksi dengan konfigurasi yang matang, sehingga siap diakses pengguna secara aman dan lancar.",
+    "maintenance": "Kami tetap mendampingi setelah launch. Mulai dari monitoring, perbaikan bug, optimasi performa, hingga pengembangan lanjutan sesuai kebutuhan bisnis Anda."
+  },
+  "cta": {
+    "title": "Ready To Move Forward With Us?",
+    "subtitle": "Mari wujudkan solusi terbaik bersama. Utomosolutions menyederhanakan workflow Anda \nagar Anda dapat fokus pada hal yang paling bernilai."
+  },
+  "about": {
+    "description": "didirikan dengan satu misi utama: memajukan bisnis melalui digitalisasi. Kami bangga telah menjadi pemandu bagi berbagai organisasi dalam menempuh perjalanan transformasi digital mereka. \nKini, UtomoSolutions berdedikasi membantu bisnis menggali dan mengoptimalkan potensi pendapatan yang besar di dalam ekosistem digital."
+  }
+}

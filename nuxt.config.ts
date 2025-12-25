@@ -46,6 +46,7 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/mdc",
+    "@nuxtjs/i18n",
   ],
   css: ["~/assets/css/main.css"],
   ui: {
@@ -75,5 +76,13 @@ export default defineNuxtConfig({
         fit: "cover",
       },
     },
+  },
+  i18n: {
+    defaultLocale: "id",
+    locales: [
+      { code: "id", language: "id-ID", file: "id.json", name: "Indonesia" },
+      { code: "en", language: "en-EN", file: "en.json", name: "English" },
+    ],
+    strategy: "no_prefix", // URL tetap / tanpa /en
   },
 });
