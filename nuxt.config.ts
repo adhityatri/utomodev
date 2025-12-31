@@ -45,8 +45,8 @@ export default defineNuxtConfig({
         ],
       },
     ],
-    "@nuxtjs/mdc",
     "@nuxtjs/i18n",
+    "@nuxt/content",
   ],
   css: ["~/assets/css/main.css"],
   ui: {
@@ -84,5 +84,18 @@ export default defineNuxtConfig({
       { code: "en", language: "en-EN", file: "en.json", name: "English" },
     ],
     strategy: "no_prefix", // URL tetap / tanpa /en
+  },
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth: 3,
+          searchDepth: 2,
+        },
+        remarkPlugins: {
+          "remark-reading-time": {},
+        },
+      },
+    },
   },
 });

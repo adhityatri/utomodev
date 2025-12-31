@@ -1,4 +1,7 @@
 export default {
+  coreplugins: {
+    preflight: false,
+  },
   theme: {
     extend: {
       colors: {

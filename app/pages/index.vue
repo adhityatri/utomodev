@@ -9,6 +9,8 @@
 </template>
 
 <script setup lang="ts">
+  const { isMobile } = useDevice();
+
   useHead({
     title: "Utomosolutions - Empowering Your Digital Potential",
     meta: [
@@ -78,6 +80,4 @@
       },
     ],
   });
-
-  const { isMobile } = useDevice();
 </script>
