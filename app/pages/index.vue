@@ -12,7 +12,7 @@
   const { isMobile } = useDevice();
 
   useHead({
-    title: "Utomosolutions - Empowering Your Digital Potential",
+    title: "Utomosolutions",
     meta: [
       {
         name: "description",
@@ -35,16 +35,16 @@
       },
       {
         property: "og:title",
-        content: "Utomosolutions - Empowering Your Digital Potential",
+        content: "Utomosolutions - Perkuat bisnis melalui inovasi digital",
       },
       {
         property: "og:description",
         content:
-          "Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.",
+          "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
       },
       {
         property: "og:image",
-        content: "https://utomosolutions.com/og-image.png", // Ganti dengan path gambar Open Graph utama Anda
+        content: "https://utomosolutions.com/ogimage.jpg", // Ganti dengan path gambar Open Graph utama Anda
       },
       // Twitter
       {
@@ -57,16 +57,16 @@
       },
       {
         property: "twitter:title",
-        content: "Utomosolutions - Empowering Your Digital Potential",
+        content: "Utomosolutions",
       },
       {
         property: "twitter:description",
         content:
-          "Utomosolutions helps businesses unlock their digital potential through innovative web and mobile development, UI/UX design, and technology solutions.",
+          "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
       },
       {
         property: "twitter:image",
-        content: "https://utomosolutions.com/twitter-image.png", // Ganti dengan path gambar Twitter Card utama Anda
+        content: "https://utomosolutions.com/ogimage.jpg", // Ganti dengan path gambar Twitter Card utama Anda
       },
       {
         name: "robots",
