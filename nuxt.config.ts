@@ -85,15 +85,27 @@ export default defineNuxtConfig({
     ],
     strategy: "no_prefix", // URL tetap / tanpa /en
   },
+  // content: {
+  //   build: {
+  //     markdown: {
+  //       toc: {
+  //         depth: 3,
+  //         searchDepth: 2,
+  //       },
+  //       remarkPlugins: {
+  //         "remark-reading-time": {},
+  //       },
+  //     },
+  //   },
+  // },
+  experimental: {
+    asyncContext: true,
+  },
   content: {
     build: {
       markdown: {
         toc: {
-          depth: 3,
-          searchDepth: 2,
-        },
-        remarkPlugins: {
-          "remark-reading-time": {},
+          searchDepth: 1,
         },
       },
     },

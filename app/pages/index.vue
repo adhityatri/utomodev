@@ -13,6 +13,9 @@
 
   useHead({
     title: "Utomosolutions",
+    htmlAttrs: {
+      lang: "id",
+    },
     meta: [
       {
         name: "description",

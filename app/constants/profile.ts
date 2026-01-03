@@ -3,8 +3,8 @@ export const PROFILE = {
   role: "Software House | Problem Solver",
   tagline: "Empowering Businesses Through Digital Excellence.",
   subTagline: "Your trusted partner in digital transformation.",
-  address: 'Jl. Kasuari Blok KK3 No 31',
-  city: 'Patrang, Jember',
+  address: "Jl. Kasuari Blok KK3 No 31",
+  city: "Patrang, Jember",
   social: [
     {
       name: "instagram",

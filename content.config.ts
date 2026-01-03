@@ -7,16 +7,18 @@ export default defineContentConfig({
       // asSitemapCollection({
       type: "page",
       source: "**/*.md",
+      slug: (path) => path.replace("/articles/", "").replace(".md", ""),
       schema: z.object({
-        title: z.string(),
-        date: z.date(),
-        description: z.string(),
-        tags: z.optional(z.array(z.string())),
-        author: z.string(),
-        author_avatar: z.string(),
-        author_description: z.string(),
-        thumbnail: z.string(),
-        rawbody: z.string(),
+        links: z
+          .array(
+            z.object({
+              label: z.string(),
+              icon: z.string(),
+              to: z.string(),
+              target: z.string().optional(),
+            }),
+          )
+          .optional(),
       }),
       // }),
     }),
