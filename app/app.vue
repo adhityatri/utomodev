@@ -14,7 +14,7 @@
 <script setup lang="ts">
   useSeoMeta({
     title: "Utomosolutions",
-    ogTitle: "Utomosolutions - Perkuat bisnis melalui inovasi digital",
+    ogTitle: "Utomosolutions - Perkuat bisnis melalui transformasi digital",
     description:
       "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
     ogDescription:

@@ -3,9 +3,11 @@ title: "Cara buat profil bisnis yang konsisten di website dan media sosial kamu.
 publishedAt: "2026-01-03"
 ---
 
-<div class="w-full h-[500px] flex items-center justify-center rounded-xl overflow-hidden ring-2 ring-white shadow-md mb-8">
-<img src="/panduan-konsisten.webp" alt="umkm-go-digital" style="width: 100%; height: 100%; object-fit: cover;" />
-</div>
+![alt text](/panduan-konsisten.webp "panduan-konsisten")
+
+<!-- <div class="w-full h-[500px] flex items-center justify-center rounded-xl overflow-hidden ring-2 ring-white shadow-md mb-8">
+<img src="/panduan-konsisten.webp" alt="panduan-konsisten" style="width: 100%; height: 100%; object-fit: cover;" />
+</div> -->
 
 Membangun profil bisnis yang konsisten bukan hanya soal estetika, melainkan strategi membangun kepercayaan dan profesionalisme. ketika logo, warna dan gaya bahasa yang seragam dari media sosial sampai website, pelanggan akan merasa sedang berinteraksi dengan brand yang profesional dan solid.
 

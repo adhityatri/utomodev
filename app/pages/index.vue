@@ -38,7 +38,7 @@
       },
       {
         property: "og:title",
-        content: "Utomosolutions - Perkuat bisnis melalui inovasi digital",
+        content: "Utomosolutions - Perkuat bisnis melalui transformasi digital",
       },
       {
         property: "og:description",

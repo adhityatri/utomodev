@@ -3,9 +3,11 @@ title: "Jualan di Sosmed Saja Tidak Cukup! Ini 4 Alasan UMKM Wajib Punya Website
 publishedAt: "2025-12-26"
 ---
 
-<div class="w-full h-[500px] flex items-center justify-center rounded-xl overflow-hidden ring-2 ring-white shadow-md mb-8">
+![alt text](/umkmgodigital.webp "umkm-go-digital")
+
+<!-- <div class="w-full h-[500px] flex items-center justify-center rounded-xl overflow-hidden ring-2 ring-white shadow-md mb-8">
 <img src="/umkmgodigital.webp" alt="umkm-go-digital" style="width: 100%; height: 100%; object-fit: cover;" />
-</div>
+</div> -->
 
 Pernah nggak sih kamu mau beli barang lewat Instagram atau TikTok, tapi pas mau bayar tiba-tiba ragu?\
 **"Ini penipu bukan ya?"** atau **"Kok profilnya kurang meyakinkan ya?"**.

@@ -6,23 +6,12 @@
       :class="{ 'py-4!': isMobile }"
     >
       <app-brand />
-      <app-menu class="flex-1" />
-      <app-contact-button v-if="!isMobile" size="lg" />
-      <div
-        class="flex items-center justify-center ring-1 ring-neutral-200 rounded-full overflow-hidden"
-      >
-        <UButton
-          v-for="locale in locales"
-          :key="locale.code"
-          size="lg"
-          :variant="useCookieLocale().value === locale.code ? 'solid' : 'ghost'"
-          :ui="{
-            base: 'rounded-none',
-          }"
-          @click="setLocale(locale.code)"
-        >
-          {{ locale.code }}
-        </UButton>
+
+      <app-menu v-if="!isMobile" class="flex-1" />
+      <div class="flex items-center gap-2" :class="{ 'flex-row-reverse': isMobile }">
+        <app-menu v-if="isMobile" class="flex-1" />
+        <app-contact-button v-if="!isMobile" size="lg" />
+        <app-switch-lang />
       </div>
     </UContainer>
   </div>
@@ -31,7 +20,6 @@
 <script setup lang="ts">
   import { useWindowScroll } from "@vueuse/core";
   const { isMobile } = useDevice();
-  const { locales, setLocale } = useI18n();
 
   const { y } = useWindowScroll();
   const isScrolled = computed(() => y.value > 0);

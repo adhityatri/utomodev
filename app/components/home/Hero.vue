@@ -32,16 +32,7 @@
         {{ $t("sub-slogan") }}
       </h3>
 
-      <div class="flex gap-4">
-        <app-contact-button size="xl" class="py-[12px] px-[30px]" />
-        <UButton
-          variant="outline"
-          class="py-[12px] px-[30px] rounded-full text-gray-800"
-          @click="onLearnMore"
-        >
-          {{ $t("learn-more") }}
-        </UButton>
-      </div>
+      <home-cta />
 
       <img
         v-if="!isMobile"
@@ -56,9 +47,5 @@
 </template>
 
 <script setup lang="ts">
-  const onLearnMore = async () => {
-    await navigateTo({ hash: "#services", replace: true });
-  };
-
   const { isMobile } = useDevice();
 </script>
