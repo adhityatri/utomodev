@@ -8,7 +8,8 @@
     "about": "About Us",
     "services": "Services",
     "contact": "Contact",
-    "blog": "Blog"
+    "blog": "Blog",
+    "works": "Portfolio"
   },
   "offer-title": "Explore what \n we offer",
   "offer-sub-title": "Our finest services to empower your company’s bold vision.",
@@ -30,9 +31,9 @@
   },
   "cta": {
     "title": "Ready To Move Forward With Us?",
-    "subtitle": "Let’s build something great together. Utomosolutions helps simplify your workflow \nso you can focus on what really matters."
+    "subtitle": "Let’s build something great together. Bitaska helps simplify your workflow \nso you can focus on what really matters."
   },
   "about": {
-    "description": "was founded with a single mission to empower businesses through digitalization. We're proud to have guided numerous organizations on their digital transformation journeys. \nToday, UtomoSolutions is dedicated to helping businesses unlock and process the significant income potential that exists within the digital community."
+    "description": "was founded with a single mission to empower businesses through digitalization. We're proud to have guided numerous organizations on their digital transformation journeys. \nToday, Bitaska is dedicated to helping businesses unlock and process the significant income potential that exists within the digital community."
   }
 }

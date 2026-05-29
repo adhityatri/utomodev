@@ -1,5 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "portal-bitaska.my.id",
+  "version": "1.0.0",
+  "author": {
+    "name": "Adhitya Tri Wahyu Utomo",
+    "email": "adhityatri.work@gmail.com",
+    "url": "https://adhitya.bitaska.my.id"
+  },
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,6 +23,7 @@
     "@nuxtjs/i18n": "^10.2.1",
     "@nuxtjs/sitemap": "7.4.3",
     "@pinia/nuxt": "^0.11.2",
+    "@vueuse/motion": "^3.0.3",
     "@vueuse/nuxt": "13.3.0",
     "better-sqlite3": "^12.5.0",
     "nuxt": "^4.2.2",

@@ -52,6 +52,13 @@
       onSelect: () => (open.value = false),
     },
     {
+      label: $t("menu.works"),
+      icon: "solar:notebook-square-outline",
+      to: "/our-works",
+      exactHash: true,
+      onSelect: () => (open.value = false),
+    },
+    {
       label: $t("menu.blog"),
       icon: "solar:notebook-square-outline",
       to: "/blog",

@@ -12,7 +12,7 @@
   const { isMobile } = useDevice();
 
   useHead({
-    title: "Utomosolutions",
+    title: "Bitaska",
     htmlAttrs: {
       lang: "id",
     },
@@ -25,7 +25,7 @@
       {
         name: "keywords",
         content:
-          "it konsultan, digital it, software house, jember, Utomosolutions, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services",
+          "it konsultan, digital it, software house, jember, Bitaska, web development, mobile development, UI/UX design, technology solutions, digital potential, software development, IT services",
       },
       // Open Graph / Facebook
       {
@@ -34,11 +34,11 @@
       },
       {
         property: "og:url",
-        content: "https://utomosolutions.com/",
+        content: "https://bitaska.my.id/",
       },
       {
         property: "og:title",
-        content: "Utomosolutions - Perkuat bisnis melalui transformasi digital",
+        content: "Bitaska - Perkuat bisnis melalui transformasi digital",
       },
       {
         property: "og:description",
@@ -47,7 +47,7 @@
       },
       {
         property: "og:image",
-        content: "https://utomosolutions.com/ogimage.jpg", // Ganti dengan path gambar Open Graph utama Anda
+        content: "https://bitaska.my.id/ogimage.jpg", // Ganti dengan path gambar Open Graph utama Anda
       },
       // Twitter
       {
@@ -56,11 +56,11 @@
       },
       {
         property: "twitter:url",
-        content: "https://utomosolutions.com/",
+        content: "https://bitaska.my.id/",
       },
       {
         property: "twitter:title",
-        content: "Utomosolutions",
+        content: "Bitaska",
       },
       {
         property: "twitter:description",
@@ -69,7 +69,7 @@
       },
       {
         property: "twitter:image",
-        content: "https://utomosolutions.com/ogimage.jpg", // Ganti dengan path gambar Twitter Card utama Anda
+        content: "https://bitaska.my.id/ogimage.jpg", // Ganti dengan path gambar Twitter Card utama Anda
       },
       {
         name: "robots",
@@ -79,7 +79,7 @@
     link: [
       {
         rel: "canonical",
-        href: "https://utomosolutions.com/",
+        href: "https://bitaska.my.id/",
       },
     ],
   });

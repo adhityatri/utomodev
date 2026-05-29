@@ -21,7 +21,7 @@ export default defineNuxtConfig({
               addressCountry: "ID",
             },
             telephone: "+62851-2803-1998",
-            url: "https://utomosolutions.com",
+            url: "https://bitaska.my.id",
           }),
         },
       ],
@@ -47,6 +47,7 @@ export default defineNuxtConfig({
     ],
     "@nuxtjs/i18n",
     "@nuxt/content",
+    "@vueuse/motion/nuxt",
   ],
   css: ["~/assets/css/main.css"],
   ui: {
@@ -54,6 +55,22 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
+      motion: {
+        directive: {
+          "pop-bottom": {
+            initial: {
+              scale: 0,
+              opacity: 0,
+              y: 100,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              y: 0,
+            },
+          },
+        },
+      },
       baseAPI: process.env.base_api || "",
       baseImage: process.env.base_url || "",
     },
@@ -99,6 +116,7 @@ export default defineNuxtConfig({
   //   },
   // },
   experimental: {
+    // viewTransition: true,
     asyncContext: true,
   },
   content: {

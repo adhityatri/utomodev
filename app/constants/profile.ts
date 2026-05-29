@@ -1,5 +1,5 @@
 export const PROFILE = {
-  name: "Utomosolutions",
+  name: "Bitaska",
   role: "Software House | Problem Solver",
   tagline: "Empowering Businesses Through Digital Excellence.",
   subTagline: "Your trusted partner in digital transformation.",
@@ -27,7 +27,7 @@ export const PROFILE = {
     },
     {
       name: "email",
-      value: "hello@utomosolutions.com",
+      value: "hello@bitaska.com",
       icon: "solar:mailbox-bold",
     },
   ],

@@ -8,7 +8,8 @@
     "about": "Tentang Kami",
     "services": "Layanan",
     "contact": "Kontak",
-    "blog": "Blog"
+    "blog": "Blog",
+    "works": "Portfolio"
   },
   "offer-title": "Layanan Kami",
   "offer-sub-title": "Layanan terbaik kami untuk mendukung visi besar perusahaan Anda",
@@ -30,9 +31,9 @@
   },
   "cta": {
     "title": "Ready To Move Forward With Us?",
-    "subtitle": "Mari wujudkan solusi terbaik bersama. Utomosolutions menyederhanakan workflow Anda \nagar Anda dapat fokus pada hal yang paling bernilai."
+    "subtitle": "Mari wujudkan solusi terbaik bersama. Bitaska menyederhanakan workflow Anda \nagar Anda dapat fokus pada hal yang paling bernilai."
   },
   "about": {
-    "description": "didirikan dengan satu misi utama: memajukan bisnis melalui digitalisasi. Kami bangga telah menjadi pemandu bagi berbagai organisasi dalam menempuh perjalanan transformasi digital mereka. \nKini, UtomoSolutions berdedikasi membantu bisnis menggali dan mengoptimalkan potensi pendapatan yang besar di dalam ekosistem digital."
+    "description": "didirikan dengan satu misi utama: memajukan bisnis melalui digitalisasi. Kami bangga telah menjadi pemandu bagi berbagai organisasi dalam menempuh perjalanan transformasi digital mereka. \nKini, Bitaska berdedikasi membantu bisnis menggali dan mengoptimalkan potensi pendapatan yang besar di dalam ekosistem digital."
   }
 }

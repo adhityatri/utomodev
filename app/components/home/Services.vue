@@ -8,26 +8,30 @@
       alt="cross-white"
     />
     <UContainer as="section" class="py-[6em] z-1 relative">
-      <text-heading class="text-white whitespace-pre-line">
-        {{ $t("offer-title") }}
-        <p class="text-white text-[1.2rem] font-normal whitespace-pre-line">
-          {{ $t("offer-sub-title") }}
-        </p>
-      </text-heading>
-      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 overflow-auto w-[100%] p-2">
-        <UCard v-for="(service, index) in data" :key="index">
-          <UIcon :name="service.icon" class="text-[2rem]" />
-          <h2 class="mb-2 text-[1.2rem] font-bold">{{ service.title }}</h2>
-          <p>{{ service.description }}</p>
-        </UCard>
-      </div>
+      <motion-group preset="slideVisibleBottom" delay="0.2">
+        <text-heading class="text-white whitespace-pre-line">
+          {{ $t("offer-title") }}
+          <p class="text-white text-[1.2rem] font-normal whitespace-pre-line">
+            {{ $t("offer-sub-title") }}
+          </p>
+        </text-heading>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 overflow-hidden w-[100%] p-2"
+        >
+          <motion-group preset="slideVisibleBottom" delay="0.2">
+            <UCard v-for="(service, index) in data" :key="index">
+              <UIcon :name="service.icon" class="text-[2rem]" />
+              <h2 class="mb-2 text-[1.2rem] font-bold">{{ service.title }}</h2>
+              <p>{{ service.description }}</p>
+            </UCard>
+          </motion-group>
+        </div>
+      </motion-group>
     </UContainer>
   </div>
 </template>
 
 <script setup lang="ts">
-  import { SERVICES } from "~/constants/services";
-
   const { isMobile } = useDevice();
   const data = computed(() => [
     {

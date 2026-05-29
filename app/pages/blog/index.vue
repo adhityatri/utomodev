@@ -30,7 +30,7 @@
       </div>
 
       <ContentRenderer v-if="item" class="text-xl" :value="item" />
-      <USeparator v-if="index < articles?.length - 1" label="utomosolutions.com" />
+      <USeparator v-if="index < articles?.length - 1" label="Bitaska.my.id" />
     </div>
   </UContainer>
 </template>

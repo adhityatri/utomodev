@@ -1,5 +1,5 @@
 ---
-title: "Jualan di Sosmed Saja Tidak Cukup! Ini 4 Alasan UMKM Wajib Punya Website Agar Dipercaya"
+title: "Mau UMKM Lebih Dipercaya? Ini 4 Alasan Website Penting Banget!"
 publishedAt: "2025-12-26"
 ---
 

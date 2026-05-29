@@ -12,5 +12,5 @@ Disallow:
 # Disallow: /private/
 
 # Memberikan lokasi sitemap Anda untuk membantu perayap menemukan semua halaman Anda.
-# PENTING: Ganti 'https://www.utomosolutions.com' dengan domain produksi Anda yang sebenarnya.
-Sitemap: https://www.utomosolutions.com/sitemap.xml
+# PENTING: Ganti 'https://www.bitaska.my.id' dengan domain produksi Anda yang sebenarnya.
+Sitemap: https://www.bitaska.my.id/sitemap.xml

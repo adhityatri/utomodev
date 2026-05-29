@@ -12,14 +12,20 @@
 </template>
 
 <script setup lang="ts">
+  useHead({
+    htmlAttrs: {
+      class: "scroll-smooth",
+    },
+  });
+
   useSeoMeta({
-    title: "Utomosolutions",
-    ogTitle: "Utomosolutions - Perkuat bisnis melalui transformasi digital",
+    title: "Bitaska",
+    ogTitle: "Bitaska - Perkuat bisnis melalui transformasi digital",
     description:
       "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
     ogDescription:
       "Partner digital Anda di Jember, membantu bisnis lokal membuka potensi melalui pengembangan web dan aplikasi mobile inovatif, desain UI/UX, serta solusi teknologi terdepan.",
-    ogImage: "https://utomosolutions.com/ogimage.jpg",
+    ogImage: "https://bitaska.my.id/ogimage.jpg",
     twitterCard: "summary_large_image",
   });
 </script>
