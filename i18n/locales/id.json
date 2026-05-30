@@ -1,6 +1,7 @@
 {
+  "hero-badge": "Mitra Inovasi Digital Anda",
   "slogan": "Perkuat Bisnis Melalui \nTransformasi Digital.",
-  "sub-slogan": "Mitra terpercaya Anda dalam transformasi digital.",
+  "sub-slogan": "Bangun kehadiran digital yang lebih kuat melalui website dan aplikasi mobile yang cepat, intuitif, dan siap berkembang. Kami menggabungkan teknologi modern dan desain berkualitas untuk membantu bisnis Anda tampil unggul di era digital.",
   "consult": "Konsultasi",
   "learn-more": "Pelajari Selengkapnya",
   "menu": {
@@ -19,19 +20,20 @@
     "uiux": "Kami merancang tampilan yang menarik, intuitif, dan user-friendly. Setiap desain dibuat untuk meningkatkan kenyamanan pengguna dan mendorong interaksi yang maksimal.",
     "ecommerce": "Solusi e-commerce yang aman, scalable, dan siap berkembang. Dirancang untuk meningkatkan penjualan, efisiensi operasional, dan kepuasan pelanggan."
   },
-  "process": "Proses Kami",
-  "process-sub-title": "Perjalanan dari Ide sampai Jadi Dampak Nyata",
+  "process-badge": "Sederhana & Efektif",
+  "process": "Metodologi Pengembangan",
+  "process-sub-title": "Kami menerapkan proses kerja yang terstruktur, komunikatif, dan transparan untuk memastikan setiap proyek berjalan sesuai tujuan, tepat waktu, dan memberikan hasil yang maksimal.",
   "process-step": {
-    "discover": "Kami mulai dengan memahami visi, tujuan, dan kebutuhan bisnis Anda. Dari sini, kami menyusun scope yang jelas agar proyek berjalan tepat sasaran.",
-    "design": "Ide diubah menjadi visual. Kami membuat wireframe, mockup, dan prototype interaktif untuk memastikan alur dan tampilan sudah sesuai sebelum masuk ke tahap development.",
-    "development": "Tahap eksekusi inti. Tim kami membangun backend dan frontend sesuai desain, dengan fokus pada performa, skalabilitas, dan kualitas kode.",
-    "testing": "Sebelum rilis, kami melakukan testing menyeluruh—mulai dari fungsi, performa, hingga keamanan—untuk memastikan aplikasi berjalan stabil dan siap digunakan.",
-    "launch": "Aplikasi dirilis ke environment produksi dengan konfigurasi yang matang, sehingga siap diakses pengguna secara aman dan lancar.",
-    "maintenance": "Kami tetap mendampingi setelah launch. Mulai dari monitoring, perbaikan bug, optimasi performa, hingga pengembangan lanjutan sesuai kebutuhan bisnis Anda."
+    "discover": "Memahami visi, tujuan, dan kebutuhan bisnis Anda. Menyusun spesifikasi proyek yang jelas agar berjalan tepat target.",
+    "design": "Membuat rancangan UI/UX, wireframe, hingga prototype interaktif performa tinggi untuk memastikan seluruh visual dan alur sudah presisi.",
+    "development": "Membangun arsitektur modern berkecepatan tinggi dengan optimasi SEO kelas satu menggunakan teknologi terbaik.",
+    "testing": "Pengujian lengkap mulai dari fungsional dasar, keandalan sistem, audit keamanan data, hingga uji kecepatan muat halaman.",
+    "launch": "Sistem dirilis ke infrastruktur cloud mumpuni dengan konfigurasi prima yang andal dan siap diakses kapan pun.",
+    "maintenance": "Dukungan pemantauan 24/7, peningkatan rutin, pembaruan keamanan berskala, serta konsultasi pengembangan fitur baru."
   },
   "cta": {
-    "title": "Ready To Move Forward With Us?",
-    "subtitle": "Mari wujudkan solusi terbaik bersama. Bitaska menyederhanakan workflow Anda \nagar Anda dapat fokus pada hal yang paling bernilai."
+    "title": "Siap Membangun Produk Digital Anda?",
+    "subtitle": "Dari website perusahaan hingga aplikasi mobile yang kompleks, kami siap membantu mengubah ide Anda menjadi solusi digital yang cepat, scalable, dan berorientasi pada pertumbuhan bisnis."
   },
   "about": {
     "description": "didirikan dengan satu misi utama: memajukan bisnis melalui digitalisasi. Kami bangga telah menjadi pemandu bagi berbagai organisasi dalam menempuh perjalanan transformasi digital mereka. \nKini, Bitaska berdedikasi membantu bisnis menggali dan mengoptimalkan potensi pendapatan yang besar di dalam ekosistem digital."

@@ -22,3 +22,7 @@
   --color-primary-900: #050c24;
   --color-primary-950: #040b20;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -27,7 +27,7 @@ export const PROFILE = {
     },
     {
       name: "email",
-      value: "hello@bitaska.com",
+      value: "hello@bitaska.my.id",
       icon: "solar:mailbox-bold",
     },
   ],

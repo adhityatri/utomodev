@@ -24,7 +24,7 @@
   });
 
   const handleContact = () => {
-    const email = "hello@bitaska.com";
+    const email = "hello@bitaska.my.id";
     const subject = "Project Inquiry";
     const mailtoUrl = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(
       subject,

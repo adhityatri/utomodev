@@ -1,6 +1,7 @@
 {
-  "slogan": "Empowering Businesses Through\nDigital Transformation.",
-  "sub-slogan": "Your trusted partner in digital transformation.",
+  "hero-badge": "Your Trusted Digital Innovation Partner",
+  "slogan": "Empowering Businesses Through \nDigital Transformation.",
+  "sub-slogan": "Empower your business with high-performance websites and mobile applications designed for speed, scalability, and seamless user experiences. We blend cutting-edge technology with thoughtful design to help your brand stand out and grow confidently in the digital landscape.",
   "consult": "Consult Now",
   "learn-more": "Learn More",
   "menu": {
@@ -19,19 +20,20 @@
     "uiux": "We create intuitive, engaging, and user-centered designs that enhance usability, improve user satisfaction, and drive meaningful interactions.",
     "ecommerce": "Secure and scalable e-commerce solutions built to boost sales, streamline operations, and deliver exceptional customer experiences."
   },
-  "process": "Our Process",
-  "process-sub-title": "The Journey from Idea to Impact",
+  "process-badge": "Simple & Effective",
+  "process": "Development Methodology",
+  "process-sub-title": "We follow a structured and transparent development process, keeping you involved at every stage to ensure alignment, efficiency, and successful project delivery.",
   "process-step": {
-    "discover": "We start by understanding your vision, goals, and business needs. This helps us define a clear scope and set the right foundation for the project.",
-    "design": "Ideas turn into visuals. We create wireframes, mockups, and interactive prototypes to validate user flows and design before development begins.",
-    "development": "The core execution phase. We build scalable backend systems and polished frontend experiences based on approved designs and specifications.",
-    "testing": "Before launch, we run thorough testing—covering functionality, performance, and security—to ensure a reliable and high-quality product.",
-    "launch": "Your application goes live in a production-ready environment, fully configured and optimized for real users.",
-    "maintenance": "Post-launch support that matters. We handle monitoring, bug fixes, performance improvements, and ongoing enhancements as your product grows."
+    "discover": "We take the time to understand your vision, objectives, and business needs, then define clear project requirements to ensure efficient execution and successful delivery.",
+    "design": "Designing intuitive user experiences through detailed wireframes, modern UI/UX design, and interactive prototypes to ensure every interaction is seamless, purposeful, and visually engaging.",
+    "development": "Developing fast, scalable, and future-ready architectures powered by modern technologies and advanced SEO strategies to deliver exceptional performance and long-term growth.",
+    "testing": "Comprehensive testing for functionality, reliability, security, and performance to ensure a seamless user experience.",
+    "launch": "Deploying on secure, high-performance cloud infrastructure built for reliability, scalability, and 24/7 availability.",
+    "maintenance": "24/7 monitoring, continuous improvements, security updates, and strategic support for future growth."
   },
   "cta": {
-    "title": "Ready To Move Forward With Us?",
-    "subtitle": "Let’s build something great together. Bitaska helps simplify your workflow \nso you can focus on what really matters."
+    "title": "Ready to Build Your Next Digital Product?",
+    "subtitle": "Partner with us to create scalable websites, mobile applications, and digital solutions that drive growth and deliver real business value."
   },
   "about": {
     "description": "was founded with a single mission to empower businesses through digitalization. We're proud to have guided numerous organizations on their digital transformation journeys. \nToday, Bitaska is dedicated to helping businesses unlock and process the significant income potential that exists within the digital community."
