@@ -13,7 +13,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@nuxt/content": "^3.10.0",
@@ -35,7 +38,13 @@
   "devDependencies": {
     "@iconify-json/fa-brands": "^1.2.2",
     "@nuxt/eslint": "^1.9.0",
+    "@nuxt/test-utils": "^4.0.3",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/test-utils": "^2.4.10",
     "eslint": "^9.0.0",
-    "remark-reading-time": "^2.0.2"
+    "happy-dom": "^20.9.0",
+    "jsdom": "^29.1.1",
+    "remark-reading-time": "^2.0.2",
+    "vitest": "^4.1.7"
   }
 }
