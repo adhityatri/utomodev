@@ -1,4 +1,4 @@
-# Utomo Solutions Portal
+# Bitaska Portal
 
 A comprehensive portal application built with Nuxt 4, Vue 3, and TypeScript.
 

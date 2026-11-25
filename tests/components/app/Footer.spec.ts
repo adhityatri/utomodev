@@ -58,6 +58,6 @@ describe("Footer.vue", () => {
     const wrapper = mountComponent();
     const currentYear = new Date().getFullYear().toString();
     expect(wrapper.text()).toContain(currentYear);
-    expect(wrapper.text()).toContain("Bitaska Labs");
+    expect(wrapper.text()).toContain("Bitaska");
   });
 });

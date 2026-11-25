@@ -11,7 +11,7 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication", // atau 'LocalBusiness'
-            name: "Utomo Solutions",
+            name: "Bitaska",
             address: {
               "@type": "PostalAddress",
               streetAddress: "Jl Kasuari Blok Kk3 No 31",

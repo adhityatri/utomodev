@@ -59,10 +59,10 @@
         title: "Dokumen Spesifikasi & Analisis",
         type: "checklist",
         items: [
-          { label: "Analisis Kompetitor & Market Research", done: true },
-          { label: "Penyusunan User Flow & Sitemap", done: true },
+          { label: "Analisis Kompetitor & Riset Pasar", done: true },
+          { label: "Penyusunan Alur Pengguna & Sitemap", done: true },
           { label: "Spesifikasi Teknis & Skalabilitas", done: true },
-          { label: "Estimasi Timeline & Prioritas Fitur", done: false },
+          { label: "Estimasi Anggaran & Jadwal Prioritas", done: false },
         ],
       },
     },
@@ -193,10 +193,10 @@
 
   // Interactive variables for showcase 01 checklist
   const currentChecklist = ref([
-    { label: "Analisis Kompetitor & Market Research", done: true },
-    { label: "Penyusunan User Flow & Sitemap", done: true },
+    { label: "Analisis Kompetitor & Riset Pasar", done: true },
+    { label: "Penyusunan Alur Pengguna & Sitemap", done: true },
     { label: "Spesifikasi Teknis & Skalabilitas", done: true },
-    { label: "Estimasi Anggaran & Timeline Prioritas", done: false },
+    { label: "Estimasi Anggaran & Jadwal Prioritas", done: false },
   ]);
   const toggleChecklist = (idx) => {
     currentChecklist.value[idx].done = !currentChecklist.value[idx].done;
@@ -332,7 +332,7 @@
                   class="px-3 py-0.5 rounded-md bg-slate-900/60 border border-slate-800 text-[10px] font-mono text-slate-400 flex items-center gap-1.5"
                 >
                   <span class="w-1 h-1 rounded-full bg-emerald-400 inline-block" />
-                  bitaska labs workflow
+                  bitaska workflow
                 </div>
                 <div class="w-6" />
               </div>
@@ -368,7 +368,7 @@
                   class="space-y-4 my-auto bg-slate-900/40 p-4 rounded-2xl border border-slate-900"
                 >
                   <div class="flex items-center justify-between mb-2">
-                    <span class="text-xs font-mono text-slate-400">Pencapaian Milestone</span>
+                    <span class="text-xs font-mono text-slate-400">Progres</span>
                     <span class="text-xs font-mono font-bold text-indigo-400">
                       {{ checklistProgress }}%</span
                     >
@@ -764,7 +764,7 @@
                     class="text-[11px] font-mono font-bold tracking-wider uppercase text-slate-300 transition-colors"
                     :class="activeStepIndex === index ? 'text-slate-500' : ''"
                   >
-                    {{ activeStepIndex === index ? "Dipilih" : "Sentuh detail" }}
+                    {{ activeStepIndex === index ? "Dipilih" : "Lihat detail" }}
                   </span>
                 </div>
 

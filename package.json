@@ -19,32 +19,41 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@nuxt/content": "^3.10.0",
-    "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "^4.3.0",
-    "@nuxtjs/device": "3.2.4",
-    "@nuxtjs/i18n": "^10.2.1",
-    "@nuxtjs/sitemap": "7.4.3",
-    "@pinia/nuxt": "^0.11.2",
+    "@nuxt/content": "^3.17.0",
+    "@nuxt/image": "^2.2.1",
+    "@nuxt/ui": "^4.13.1",
+    "@nuxtjs/device": "^4.0.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/sitemap": "^9.2.0",
+    "@pinia/nuxt": "^1.0.3",
     "@vueuse/motion": "^3.0.3",
-    "@vueuse/nuxt": "13.3.0",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2",
-    "pinia": "^3.0.3",
-    "typescript": "^5.6.3",
-    "vue": "^3.5.15",
-    "vue-router": "^4.5.1"
+    "@vueuse/nuxt": "^15.1.0",
+    "better-sqlite3": "^13.2.0",
+    "nuxt": "^4.7.0",
+    "pinia": "^4.1.0",
+    "typescript": "^7.0.2",
+    "vue": "^3.5.46",
+    "vue-router": "^5.5.1"
   },
   "devDependencies": {
     "@iconify-json/fa-brands": "^1.2.2",
-    "@nuxt/eslint": "^1.9.0",
-    "@nuxt/test-utils": "^4.0.3",
-    "@vitejs/plugin-vue": "^6.0.7",
-    "@vue/test-utils": "^2.4.10",
-    "eslint": "^9.0.0",
-    "happy-dom": "^20.9.0",
-    "jsdom": "^29.1.1",
-    "remark-reading-time": "^2.0.2",
-    "vitest": "^4.1.7"
-  }
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/test-utils": "^4.4.0",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vue/test-utils": "^2.6.0",
+    "eslint": "^10.15.0",
+    "happy-dom": "^21.0.4",
+    "jsdom": "^31.0.1",
+    "remark-reading-time": "^2.1.0",
+    "vitest": "^5.1.1"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@tailwindcss/oxide",
+    "better-sqlite3",
+    "esbuild",
+    "sharp",
+    "unrs-resolver",
+    "vue-demi"
+  ]
 }

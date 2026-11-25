@@ -1,5 +1,5 @@
 {
-  "hero-badge": "Mitra Inovasi Digital Anda",
+  "hero-badge": "Partner Digital untuk Bisnis Anda",
   "slogan": "Perkuat Bisnis Melalui \nTransformasi Digital.",
   "sub-slogan": "Bangun kehadiran digital yang lebih kuat melalui website dan aplikasi mobile yang cepat, intuitif, dan siap berkembang. Kami menggabungkan teknologi modern dan desain berkualitas untuk membantu bisnis Anda tampil unggul di era digital.",
   "consult": "Konsultasi",
@@ -21,7 +21,7 @@
     "ecommerce": "Solusi e-commerce yang aman, scalable, dan siap berkembang. Dirancang untuk meningkatkan penjualan, efisiensi operasional, dan kepuasan pelanggan."
   },
   "process-badge": "Sederhana & Efektif",
-  "process": "Metodologi Pengembangan",
+  "process": "Cara Kami Bekerja",
   "process-sub-title": "Kami menerapkan proses kerja yang terstruktur, komunikatif, dan transparan untuk memastikan setiap proyek berjalan sesuai tujuan, tepat waktu, dan memberikan hasil yang maksimal.",
   "process-step": {
     "discover": "Memahami visi, tujuan, dan kebutuhan bisnis Anda. Menyusun spesifikasi proyek yang jelas agar berjalan tepat target.",
@@ -32,10 +32,12 @@
     "maintenance": "Dukungan pemantauan 24/7, peningkatan rutin, pembaruan keamanan berskala, serta konsultasi pengembangan fitur baru."
   },
   "cta": {
+    "workTogether": "Mulai kolaborasi bersama kami",
     "title": "Siap Membangun Produk Digital Anda?",
-    "subtitle": "Dari website perusahaan hingga aplikasi mobile yang kompleks, kami siap membantu mengubah ide Anda menjadi solusi digital yang cepat, scalable, dan berorientasi pada pertumbuhan bisnis."
+    "subtitle": "Dari website perusahaan sampai aplikasi mobile yang kompleks, kami siap membantu mengubah ide Anda menjadi solusi digital yang cepat, mudah dikembangkan, dan mendukung pertumbuhan bisnis."
   },
   "about": {
-    "description": "didirikan dengan satu misi utama: memajukan bisnis melalui digitalisasi. Kami bangga telah menjadi pemandu bagi berbagai organisasi dalam menempuh perjalanan transformasi digital mereka. \nKini, Bitaska berdedikasi membantu bisnis menggali dan mengoptimalkan potensi pendapatan yang besar di dalam ekosistem digital."
+    "description": "berdiri dengan satu misi: memajukan bisnis lewat digitalisasi. Kami senang bisa mendampingi berbagai organisasi dalam perjalanan transformasi digital mereka. Kini, Bitaska fokus membantu bisnis menggali dan memaksimalkan potensi pendapatan di ekosistem digital.",
+    "footer": "Mendukung transformasi digital lewat solusi teknologi yang inovatif, mudah dikembangkan, dan berorientasi pada pertumbuhan bisnis."
   }
 }

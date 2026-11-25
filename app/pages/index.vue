@@ -38,7 +38,7 @@
       },
       {
         property: "og:title",
-        content: "Bitaska - Perkuat bisnis melalui transformasi digital",
+        content: "Bitaska - Jasa Pembuatan Website & Aplikasi di Jember",
       },
       {
         property: "og:description",

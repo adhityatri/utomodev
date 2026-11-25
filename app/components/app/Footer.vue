@@ -1,30 +1,9 @@
-<!-- <template>
-  <UContainer
-    as="footer"
-    class="mt-8 py-6 flex justify-between items-start"
-    :class="{ 'flex-col-reverse': isMobile }"
-  >
-    <div class="flex-1">
-      <h1 class="font-bold mb-2">Office</h1>
-      <p>{{ PROFILE.address }}</p>
-      <p class="mb-2">{{ PROFILE.city }}</p>
-      <p>Phone: {{ PROFILE.contact[0].value }}</p>
-      <p>Email: {{ PROFILE.contact[1].value }}</p>
-    </div>
-    <img src="/brand-sub.png" height="32" width="112" alt="brand-sub-logo" />
-  </UContainer>
-</template>
-
-<script setup lang="ts">
-  import { PROFILE } from "~/constants/profile";
-
-  const { isMobile } = useDevice();
-</script> -->
-
 <script setup>
   import { PROFILE } from "~/constants/profile";
 
   const currentYear = new Date().getFullYear();
+  const phone = computed(() => PROFILE.contact[0].value);
+  const phoneHref = computed(() => `tel:${phone.value.replace(/[^+\d]/g, "")}`);
 </script>
 
 <template>
@@ -36,8 +15,7 @@
             <img class="-ml-2" alt="brand-sub-logo" height="52" src="/brand-sub.png" width="112" />
           </a>
           <p class="text-slate-500 max-w-sm text-sm leading-relaxed">
-            Mengakselerasi transformasi digital melalui solusi teknologi yang inovatif, scalable,
-            dan berorientasi pada pertumbuhan bisnis.
+            {{ $t("about.footer") }}
           </p>
         </div>
 
@@ -75,11 +53,8 @@
               {{ PROFILE.address }}
             </p>
             <p class="space-y-1">
-              <a
-                href="tel:{{ PROFILE.contact[0].value }}"
-                class="hover:text-slate-900 transition-colors block"
-              >
-                {{ PROFILE.contact[0].value }}
+              <a :href="phoneHref" class="hover:text-slate-900 transition-colors block">
+                {{ phone }}
               </a>
               <a
                 href="mailto:hello@bitaska.my.id"
@@ -96,19 +71,8 @@
         class="pt-8 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-4"
       >
         <p class="text-slate-400 text-sm font-sans">
-          &copy; {{ currentYear }} Bitaska Labs. All rights reserved.
+          &copy; {{ currentYear }} Bitaska. All rights reserved.
         </p>
-        <!-- <div class="flex gap-6">
-          <a href="#" class="text-slate-400 hover:text-slate-900 transition-colors text-sm">
-            LinkedIn
-          </a>
-          <a href="#" class="text-slate-400 hover:text-slate-900 transition-colors text-sm">
-            Instagram
-          </a>
-          <a href="#" class="text-slate-400 hover:text-slate-900 transition-colors text-sm">
-            Twitter
-          </a>
-        </div> -->
       </div>
     </div>
   </footer>

@@ -51,7 +51,7 @@
 <script setup lang="ts">
   import { PROFILE } from "~/constants/profile";
   useHead({
-    title: "About Us - Bitaska",
+    title: "Tentang Kami - Bitaska",
     meta: [
       {
         name: "description",

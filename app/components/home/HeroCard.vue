@@ -1,23 +1,21 @@
 <script setup>
-defineProps({
-  card: {
-    type: Object,
-    required: true,
-  },
-  isMounted: {
-    type: Boolean,
-    default: false,
-  },
-});
+  defineProps({
+    card: {
+      type: Object,
+      required: true,
+    },
+    isMounted: {
+      type: Boolean,
+      default: false,
+    },
+  });
 </script>
 
 <template>
   <div
     class="bg-white rounded-3xl p-6 shadow-[0_20px_40px_rgba(0,0,0,0.012)] border border-slate-100 aspect-square flex flex-col justify-between relative overflow-hidden group transform transition-all duration-700 ease-out cursor-pointer hover:-translate-y-1"
     :class="[
-      isMounted
-        ? 'opacity-100 translate-y-0 scale-100'
-        : 'opacity-0 translate-y-8 scale-95',
+      isMounted ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95',
       card.hoverBorder,
     ]"
     :style="{
@@ -52,7 +50,7 @@ defineProps({
         <div
           class="flex-grow mx-2 bg-slate-950 rounded border border-slate-800 text-[8px] text-slate-500 font-mono py-0.5 px-2 truncate flex items-center gap-1"
         >
-          <span class="text-indigo-400 font-bold">https://</span>utomo.id/demo
+          <span class="text-indigo-400 font-bold">https://</span>bitaska.my.id
         </div>
       </div>
 
@@ -111,10 +109,7 @@ defineProps({
             <span class="text-[6px] text-white font-medium uppercase font-sans"
               >Active Session</span
             >
-            <UIcon
-              name="i-lucide-smartphone"
-              class="w-2 mb-0.5 text-white animate-bounce"
-            />
+            <UIcon name="i-lucide-smartphone" class="w-2 mb-0.5 text-white animate-bounce" />
           </div>
           <div
             class="flex items-center justify-between gap-0.5 bg-slate-900/60 p-1 rounded border border-slate-800"
@@ -164,9 +159,7 @@ defineProps({
           fill="currentColor"
           viewBox="0 0 24 24"
         >
-          <path
-            d="M4.5 3v13.064l3.657-3.657 3.327 7.593 2.743-1.2-3.356-7.657h5.129L4.5 3z"
-          />
+          <path d="M4.5 3v13.064l3.657-3.657 3.327 7.593 2.743-1.2-3.356-7.657h5.129L4.5 3z" />
         </svg>
         <span
           class="bg-emerald-500 text-white font-mono text-[7px] tracking-wide px-1.5 py-0.5 rounded shadow-sm font-semibold select-none"
@@ -191,15 +184,11 @@ defineProps({
         >
       </div>
       <div class="flex gap-2.5 items-center my-1.5">
-        <div
-          class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center shrink-0"
-        >
+        <div class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center shrink-0">
           <UIcon name="i-lucide-shopping-cart" class="w-4 h-4 text-white" />
         </div>
         <div class="flex-grow min-w-0">
-          <span class="text-[9px] font-bold text-slate-800 block truncate"
-            >Modern Speaker OS</span
-          >
+          <span class="text-[9px] font-bold text-slate-800 block truncate">Modern Speaker OS</span>
           <div class="flex items-center justify-between">
             <span class="text-[8px] text-slate-500">Qty: 01</span>
             <span class="text-[9px] font-bold text-slate-900">$129.00</span>
